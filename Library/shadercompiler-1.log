@@ -1,0 +1,138 @@
+Base path: E:/Unity_4.5_Install_Dump/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-1168
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=8333 outsize=2052 ok=1
+Cmd: preprocess
+  insize=10964 outsize=663 ok=1
+Cmd: preprocess
+  insize=1063 outsize=408 ok=1
+Cmd: preprocess
+  insize=9575 outsize=799 ok=1
+Cmd: preprocess
+  insize=1624 outsize=334 ok=1
+Cmd: preprocess
+  insize=844 outsize=330 ok=1
+Cmd: preprocess
+  insize=928 outsize=289 ok=1
+Cmd: preprocess
+  insize=1923 outsize=467 ok=1
+Cmd: preprocess
+  insize=914 outsize=1956 ok=1
+Cmd: preprocess
+  insize=1217 outsize=387 ok=1
+Cmd: preprocess
+  insize=3521 outsize=640 ok=1
+Cmd: preprocess
+  insize=1164 outsize=384 ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (40): Can't find include file frag_ao.cginc
+  error: 2 plat 12 at (44): Can't find include file frag_ao.cginc
+  error: 2 plat 12 at (48): Can't find include file frag_ao.cginc
+  error: 2 plat 12 at (52): Can't find include file frag_ao.cginc
+  error: 2 plat 12 at (57): Can't find include file frag_ao.cginc
+  insize=6511 outsize=780 ok=0
+Cmd: preprocess
+  insize=1893 outsize=1893 ok=1
+Cmd: preprocess
+  insize=1097 outsize=289 ok=1
+Cmd: preprocess
+  insize=2413 outsize=753 ok=1
+Cmd: preprocess
+  insize=1314 outsize=362 ok=1
+Cmd: preprocess
+  insize=1353 outsize=325 ok=1
+Cmd: preprocess
+  insize=1188 outsize=255 ok=1
+Cmd: preprocess
+  insize=1344 outsize=330 ok=1
+Cmd: preprocess
+  insize=1193 outsize=304 ok=1
+Cmd: preprocess
+  insize=2235 outsize=619 ok=1
+Cmd: preprocess
+  insize=902 outsize=252 ok=1
+Cmd: preprocess
+  insize=636 outsize=302 ok=1
+Cmd: preprocess
+  insize=6131 outsize=976 ok=1
+Cmd: preprocess
+  insize=32573 outsize=255 ok=1
+Cmd: preprocess
+  insize=1154 outsize=242 ok=1
+Cmd: preprocess
+  insize=4293 outsize=504 ok=1
+Cmd: preprocess
+  insize=992 outsize=248 ok=1
+Cmd: preprocess
+  insize=4770 outsize=1781 ok=1
+Cmd: preprocess
+  insize=12787 outsize=1866 ok=1
+Cmd: preprocess
+  insize=963 outsize=332 ok=1
+Cmd: preprocess
+  insize=6023 outsize=732 ok=1
+Cmd: preprocess
+  insize=2677 outsize=763 ok=1
+Cmd: preprocess
+  insize=10773 outsize=2535 ok=1
+Cmd: preprocess
+  insize=12423 outsize=2320 ok=1
+Cmd: preprocess
+  insize=1530 outsize=277 ok=1
+Cmd: preprocess
+  insize=23968 outsize=4136 ok=1
+Cmd: preprocess
+  insize=3938 outsize=532 ok=1
+Cmd: preprocess
+  insize=1675 outsize=280 ok=1
+Cmd: preprocess
+  insize=965 outsize=333 ok=1
+Cmd: preprocess
+  insize=1082 outsize=407 ok=1
+Cmd: preprocess
+  insize=673 outsize=248 ok=1
+Cmd: preprocess
+  insize=5564 outsize=854 ok=1
+Cmd: preprocess
+  insize=5171 outsize=735 ok=1
+Cmd: preprocess
+  insize=520 outsize=341 ok=1
+Cmd: preprocess
+  insize=6414 outsize=905 ok=1
+Cmd: preprocess
+  insize=32583 outsize=255 ok=1
+Cmd: preprocess
+  insize=5175 outsize=1721 ok=1
+Cmd: preprocess
+  insize=6737 outsize=236 ok=1
+Cmd: preprocess
+  insize=4268 outsize=418 ok=1
+Cmd: preprocess
+  insize=4608 outsize=888 ok=1
+Cmd: preprocess
+  insize=5717 outsize=1218 ok=1
+Cmd: preprocess
+  insize=656 outsize=299 ok=1
+Cmd: preprocess
+  insize=3696 outsize=631 ok=1
+Cmd: preprocess
+  insize=799 outsize=276 ok=1
+Cmd: preprocess
+  insize=1265 outsize=270 ok=1
+Cmd: preprocess
+  insize=2015 outsize=947 ok=1
+Cmd: preprocess
+  insize=5095 outsize=701 ok=1
+Cmd: preprocess
+  insize=1017 outsize=470 ok=1
+Cmd: preprocess
+  insize=512 outsize=241 ok=1
+Cmd: preprocess
+  insize=650 outsize=290 ok=1
+Cmd: preprocess
+  insize=5006 outsize=866 ok=1
+Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
+
+
+Quitting shader compiler process

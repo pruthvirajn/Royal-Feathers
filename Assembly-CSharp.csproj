@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2F40BF5E-D2D2-B4AC-AC38-B07B3D0D5966}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Unity_4.5_Install_Dump/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Unity_4.5_Install_Dump/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Elements\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\Elements\Scripts\TestParticles.cs" />
+     <Compile Include="Assets\Plugins.Managed\pxcmdefs.extensions.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\ActivateAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\BlendShapeAnimationAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\DeactivateAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\DisableBehaviorAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\EnableBehaviorAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\HideAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\RotationAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\ScaleAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\SendMessageAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\ShowAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\TrackingAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Actions\TranslateAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\BaseAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\Bool3D.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\CameraARCalibation.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\Draw3DSegmentation.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\DrawImages.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\MinMax2D.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\PointCloudViewer.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\RotationConstraints.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\RotationMax2D.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\ScaleConstraints.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\SmoothingUtility.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\Transformation3D.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Actions Utils\VirtualWorldBoxAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Debug\DebugAction.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\HiddenBehaviour.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\RealSenseInput\MCTTypes.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\RealSenseInput\SenseOption.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\RealSenseInput\SenseToolkitManager.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\RealSenseInput\SenseToolkitSpeechManager.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\AlwaysTrueRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\BaseRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\BlobDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\BlobLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\BlobTrackingRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FaceDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FaceLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FaceTrackingRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FacialExpressionAnimationRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FacialExpressionDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\FacialExpressionLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\GestureDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\GestureLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandClosedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandMoveRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandOpennedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\HandTrackingRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\ObjectDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\ObjectLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\ObjectTrackingRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\SpeechDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\TwoHandsDetectedRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\TwoHandsInteractionRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\TwoHandsLostRule.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\Utils\BlobUtilityClass.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\Utils\SpeechCommand.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Rules\Utils\TrackingUtilityClass.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\AnimationTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\EventTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\RotationTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\ScaleTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\TrackTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\TranslationTrigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Internals\Triggers\Trigger.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Samples\SampleTriggerRegistration.cs" />
+     <Compile Include="Assets\RSUnityToolkit\Samples\TargetCounter.cs" />
+     <Compile Include="Assets\Scripts\ARDisplay.cs" />
+     <Compile Include="Assets\Scripts\AudioMenuChangeTex.cs" />
+     <Compile Include="Assets\Scripts\AudioStartStop.cs" />
+     <Compile Include="Assets\Scripts\BeginnerChoice_No.cs" />
+     <Compile Include="Assets\Scripts\BeginnerChoice_Yes.cs" />
+     <Compile Include="Assets\Scripts\CageFadeInOut.cs" />
+     <Compile Include="Assets\Scripts\CageRotate.cs" />
+     <Compile Include="Assets\Scripts\CageRotate01.cs" />
+     <Compile Include="Assets\Scripts\CageRotate02.cs" />
+     <Compile Include="Assets\Scripts\CameraAdjustResolution.cs" />
+     <Compile Include="Assets\Scripts\CameraCheck.cs" />
+     <Compile Include="Assets\Scripts\ChoiceDialogFade.cs" />
+     <Compile Include="Assets\Scripts\CollisionChange.cs" />
+     <Compile Include="Assets\Scripts\FadeInOutObjects.cs" />
+     <Compile Include="Assets\Scripts\FamiliarizeDialogFade.cs" />
+     <Compile Include="Assets\Scripts\FamiliarizeGestureCheck.cs" />
+     <Compile Include="Assets\Scripts\ForeverTurn.cs" />
+     <Compile Include="Assets\Scripts\FormulaBar.cs" />
+     <Compile Include="Assets\Scripts\FormulaBar01.cs" />
+     <Compile Include="Assets\Scripts\FormulaBar02.cs" />
+     <Compile Include="Assets\Scripts\FrameBallColor01.cs" />
+     <Compile Include="Assets\Scripts\FrameBallColor01Level02.cs" />
+     <Compile Include="Assets\Scripts\FrameBallColor02.cs" />
+     <Compile Include="Assets\Scripts\FrameBallColor02Level02.cs" />
+     <Compile Include="Assets\Scripts\GameLeftChangeTex.cs" />
+     <Compile Include="Assets\Scripts\GameLevelARSystem.cs" />
+     <Compile Include="Assets\Scripts\GameLevelChoose.cs" />
+     <Compile Include="Assets\Scripts\GameLevelDialogFade.cs" />
+     <Compile Include="Assets\Scripts\GameLevelTextFade.cs" />
+     <Compile Include="Assets\Scripts\GameOver.cs" />
+     <Compile Include="Assets\Scripts\GameRightChangeTex.cs" />
+     <Compile Include="Assets\Scripts\GameTitleFade.cs" />
+     <Compile Include="Assets\Scripts\Level01ChangeTex.cs" />
+     <Compile Include="Assets\Scripts\Level02ChangeTex.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\MainMenuAboutChangeTex.cs" />
+     <Compile Include="Assets\Scripts\MainMenuPlayChangeTex.cs" />
+     <Compile Include="Assets\Scripts\MainMenuQuitChangeTex.cs" />
+     <Compile Include="Assets\Scripts\MainMenuWait.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\PlasmaEmitter01.cs" />
+     <Compile Include="Assets\Scripts\PlasmaEmitter01Level02.cs" />
+     <Compile Include="Assets\Scripts\PlasmaEmitter02.cs" />
+     <Compile Include="Assets\Scripts\PlasmaEmitter02Level02.cs" />
+     <Compile Include="Assets\Scripts\PlayMenuChangeTex.cs" />
+     <Compile Include="Assets\Scripts\QuitGame.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
+     <Compile Include="Assets\Scripts\RotateCam.cs" />
+     <Compile Include="Assets\Scripts\StorylineARSystem.cs" />
+     <Compile Include="Assets\Scripts\StorylineDialog.cs" />
+     <Compile Include="Assets\Scripts\StorylineFadeDialog.cs" />
+     <Compile Include="Assets\Scripts\UserMenuTextItems.cs" />
+     <Compile Include="Assets\Scripts\WelcomeARDisplay.cs" />
+     <Compile Include="Assets\_Scripts\Bone.cs" />
+     <Compile Include="Assets\_Scripts\CameraController.cs" />
+     <Compile Include="Assets\_Scripts\Controller.cs" />
+     <Compile Include="Assets\_Scripts\Game.cs" />
+     <Compile Include="Assets\_Scripts\Player.cs" />
+     <Compile Include="Assets\_Scripts\Slime.cs" />
+     <Compile Include="Assets\_Scripts\TouchController.cs" />
+     <Compile Include="Assets\_Scripts\fpsdisplay.cs" />
+     <Compile Include="Assets\_Scripts\mainGUI.cs" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Patricle effects\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Elements\!Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\RSUnityToolkit\Internals\Materials\Occlusion.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Gem Rendering\diamond shader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="libpxcclr.unity">
+ <HintPath>E:/Royal Feathers/Assets/Plugins.Managed/libpxcclr.unity.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{6B9927D6-CD57-6141-1AEC-569437466FC4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
